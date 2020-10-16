@@ -1,0 +1,33 @@
+<div class="main-container">
+	<header class="header-2">
+		<div class="branding">
+			<a class="nav-link">
+				<clr-icon shape="home" size="24"></clr-icon>
+				<span class="title">Clarity</span>
+			</a>
+		</div>
+		<div class="header-nav">
+			<a class="active nav-link nav-text">Home</a>
+		</div>
+	</header>
+	<div class="content-container">
+		<div class="content-area">
+			<clr-accordion clrAccordionMultiPanel="true">
+        <clr-accordion-panel>
+          <clr-accordion-title>Item 1</clr-accordion-title>
+          <clr-accordion-content [(clrIfExpanded)]="a">Content 1</clr-accordion-content>
+        </clr-accordion-panel>
+
+        <clr-accordion-panel>
+          <clr-accordion-title>Item 2</clr-accordion-title>
+          <clr-accordion-content [(clrIfExpanded)]="b">Content 2</clr-accordion-content>
+        </clr-accordion-panel>
+
+        <clr-accordion-panel>
+          <clr-accordion-title>Item 3</clr-accordion-title>
+          <clr-accordion-content [(clrIfExpanded)]="c">Content 3</clr-accordion-content>
+        </clr-accordion-panel>
+      </clr-accordion>
+		</div>
+	</div>
+</div>
